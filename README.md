@@ -1,4 +1,6 @@
 price-calculator
 ================
 
-Price-calculator is helping to choose better offer of the same product
+Price-calculator helps choosing better price per unit of the same product
+<br>STACK:<br>
+Php, Js, Ajax, HTML 
