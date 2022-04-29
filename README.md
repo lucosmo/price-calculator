@@ -12,7 +12,7 @@ or
 Price-calculator will help you decide which option is better for you.
 
 ### Technology stack
-- Php, 
-- Js, 
+- Php
+- Js
 - HTML
 - CSS
