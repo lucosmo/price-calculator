@@ -1,4 +1,9 @@
 <?php
+  /**
+   * Checks if imput contains numeric value
+   *
+   *
+  */
 function check($variable)
 {
 	$variable=trim($variable);
