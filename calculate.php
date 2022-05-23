@@ -1,8 +1,8 @@
 <?php
   /**
    * Checks if imput contains numeric value
-   *
-   *
+   * @param string $variable value passed from form's input
+   * @return string $variable | boolean false Modified value received from form's input or false
   */
 function check($variable)
 {
