@@ -16,3 +16,5 @@ Price-calculator will help you decide which option is better for you.
 - Js
 - HTML
 - CSS
+
+### Instructions
