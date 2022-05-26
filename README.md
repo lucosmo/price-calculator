@@ -29,6 +29,10 @@ python3 -m http.server
 ```
 python -m http.server
 ```
+or
+```
+py -3 -m http.server
+```
 3. By default project runs under URL:
 ```
  localhost:8000
