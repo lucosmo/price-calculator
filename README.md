@@ -35,5 +35,5 @@ py -3 -m http.server
 ```
 3. By default project runs under URL:
 ```
- localhost:8000
+http://localhost:8000
 ```
