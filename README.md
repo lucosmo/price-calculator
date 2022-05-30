@@ -22,9 +22,9 @@ Price-calculator will help you decide which option is better for you.
 1. Go inside folder containing project
 2. Run python local testing server:
   - Linux:
-   ```
+```
 python3 -m http.server
-   ```
+```
   - Windows:
 ```
 python -m http.server
@@ -35,5 +35,5 @@ py -3 -m http.server
 ```
 3. By default project runs under URL:
 ```
-http://localhost:8000
+<a href="http://localhost:8000">localhost:8000</a>
 ```
