@@ -13,6 +13,10 @@ function check($variable)
 		return $variable;
 	else return false;
 }
+
+/*
+   CHANGE BELOW INTO FUNCTION(S)
+*/
 $price1=check($_GET["price1"]);
 $price2=check($_GET["price2"]);
 $quantity1=check($_GET["quantity1"]);
