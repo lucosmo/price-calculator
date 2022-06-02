@@ -21,7 +21,7 @@ Price-calculator will help you decide which option is better for you.
 
 1. Go inside folder containing project
 2. Run python local testing server:
-  - Linux:
+  - Linux/MacOS:
 ```
 python3 -m http.server
 ```
