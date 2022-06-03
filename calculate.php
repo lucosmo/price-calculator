@@ -17,6 +17,9 @@ function check($variable)
 /*
    CHANGE BELOW INTO FUNCTION(S)
 */
+function calculatePrices()
+{
+}
 $price1=check($_GET["price1"]);
 $price2=check($_GET["price2"]);
 $quantity1=check($_GET["quantity1"]);
