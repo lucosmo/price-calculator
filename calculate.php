@@ -16,6 +16,7 @@ function check($variable)
 
 /*
    CHANGE BELOW INTO FUNCTION(S)
+   @return string Returns prices per unit
 */
 function calculatePrices()
 {
