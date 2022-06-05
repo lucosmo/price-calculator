@@ -18,8 +18,9 @@ function check($variable)
    CHANGE BELOW INTO FUNCTION(S)
    @return string Returns prices per unit
 */
-function calculatePrices()
+function calculatePrices($p1,$p2,$q1,$q2)
 {
+   return $output;
 }
 $price1=check($_GET["price1"]);
 $price2=check($_GET["price2"]);
