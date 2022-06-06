@@ -20,6 +20,10 @@ function check($variable)
 */
 function calculatePrices($p1,$p2,$q1,$q2)
 {
+   $price1=check($_GET["price1"]);
+   $price2=check($_GET["price2"]);
+   $quantity1=check($_GET["quantity1"]);
+   $quantity2=check($_GET["quantity2"]);
    return $output;
 }
 $price1=check($_GET["price1"]);
