@@ -24,8 +24,15 @@ function calculatePrices($p1,$p2,$q1,$q2)
    $price2=check($_GET["price2"]);
    $quantity1=check($_GET["quantity1"]);
    $quantity2=check($_GET["quantity2"]);
-   return $output;
+	 if($price1!=null && $price2!=null && $quantity1!=null && $quantity2!=null){
+		 $pricePerUnit1=$price1/$quantity1;
+		 $pricePerUnit2=$price2/$quantity2;
+		 $better=($pricePerUnit1<$pricePerUnit2)?"1st":"2nd";
+		 $output = "1st price per unit: ".number_format($pricePerUnit1,2)."<br>2nd price per unit: ".number_format($pricePerUnit2,2)."<br><p>".$better." offer is better</p>";
+
+	 return $output;
 }
+
 $price1=check($_GET["price1"]);
 $price2=check($_GET["price2"]);
 $quantity1=check($_GET["quantity1"]);
@@ -35,5 +42,5 @@ if($price1!=null && $price2!=null && $quantity1!=null && $quantity2!=null){
 	$pricePerUnit2=$price2/$quantity2;
 	$better=($pricePerUnit1<$pricePerUnit2)?"1st":"2nd";
 	echo "1st price per unit: ".number_format($pricePerUnit1,2)."<br>2nd price per unit: ".number_format($pricePerUnit2,2)."<br><p>".$better." offer is better</p>";
-	
+
 }
